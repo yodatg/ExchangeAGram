@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B461BA71B4BF01B008A7A93 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B461BA61B4BF01B008A7A93 /* CoreData.framework */; };
+		2B461BAA1B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B461BA81B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodeld */; };
+		2B461BAE1B4C1154008A7A93 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B461BAD1B4C1154008A7A93 /* FilterViewController.swift */; };
+		2B461BB01B4C1FBC008A7A93 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B461BAF1B4C1FBC008A7A93 /* FilterCell.swift */; };
+		2B461BB21B4C4890008A7A93 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B461BB11B4C4890008A7A93 /* FeedItem.swift */; };
 		2BC0AF0E1B471EC1006B32FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0AF0D1B471EC1006B32FB /* AppDelegate.swift */; };
-		2BC0AF101B471EC1006B32FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0AF0F1B471EC1006B32FB /* ViewController.swift */; };
 		2BC0AF131B471EC1006B32FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BC0AF111B471EC1006B32FB /* Main.storyboard */; };
 		2BC0AF151B471EC1006B32FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC0AF141B471EC1006B32FB /* Images.xcassets */; };
 		2BC0AF181B471EC1006B32FB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC0AF161B471EC1006B32FB /* LaunchScreen.xib */; };
 		2BC0AF241B471EC2006B32FB /* ExchangeAGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0AF231B471EC2006B32FB /* ExchangeAGramTests.swift */; };
+		2BC0AF301B47208E006B32FB /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0AF2F1B47208E006B32FB /* FeedViewController.swift */; };
+		2BC0AF321B472A98006B32FB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC0AF311B472A98006B32FB /* FeedCell.swift */; };
+		2BC0AF341B4BE52F006B32FB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC0AF331B4BE52F006B32FB /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B461BA61B4BF01B008A7A93 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B461BA91B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeAGramModel.xcdatamodel; sourceTree = "<group>"; };
+		2B461BAD1B4C1154008A7A93 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		2B461BAF1B4C1FBC008A7A93 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		2B461BB11B4C4890008A7A93 /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeedItem.swift; path = ../FeedItem.swift; sourceTree = "<group>"; };
 		2BC0AF081B471EC1006B32FB /* ExchangeAGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeAGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC0AF0C1B471EC1006B32FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BC0AF0D1B471EC1006B32FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BC0AF0F1B471EC1006B32FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BC0AF121B471EC1006B32FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BC0AF141B471EC1006B32FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2BC0AF171B471EC1006B32FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2BC0AF1D1B471EC2006B32FB /* ExchangeAGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeAGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC0AF221B471EC2006B32FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BC0AF231B471EC2006B32FB /* ExchangeAGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeAGramTests.swift; sourceTree = "<group>"; };
+		2BC0AF2F1B47208E006B32FB /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2BC0AF311B472A98006B32FB /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		2BC0AF331B4BE52F006B32FB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B461BA71B4BF01B008A7A93 /* CoreData.framework in Frameworks */,
+				2BC0AF341B4BE52F006B32FB /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +72,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B461BB31B4C48C4008A7A93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B461BB11B4C4890008A7A93 /* FeedItem.swift */,
+				2B461BA81B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		2BC0AEFF1B471EC1006B32FB = {
 			isa = PBXGroup;
 			children = (
@@ -78,7 +103,11 @@
 			isa = PBXGroup;
 			children = (
 				2BC0AF0D1B471EC1006B32FB /* AppDelegate.swift */,
-				2BC0AF0F1B471EC1006B32FB /* ViewController.swift */,
+				2BC0AF2F1B47208E006B32FB /* FeedViewController.swift */,
+				2B461BAD1B4C1154008A7A93 /* FilterViewController.swift */,
+				2B461BAF1B4C1FBC008A7A93 /* FilterCell.swift */,
+				2BC0AF311B472A98006B32FB /* FeedCell.swift */,
+				2B461BB31B4C48C4008A7A93 /* Model */,
 				2BC0AF111B471EC1006B32FB /* Main.storyboard */,
 				2BC0AF141B471EC1006B32FB /* Images.xcassets */,
 				2BC0AF161B471EC1006B32FB /* LaunchScreen.xib */,
@@ -90,6 +119,8 @@
 		2BC0AF0B1B471EC1006B32FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B461BA61B4BF01B008A7A93 /* CoreData.framework */,
+				2BC0AF331B4BE52F006B32FB /* MobileCoreServices.framework */,
 				2BC0AF0C1B471EC1006B32FB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +187,7 @@
 		2BC0AF001B471EC1006B32FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Thomas Grant";
 				TargetAttributes = {
@@ -212,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BC0AF101B471EC1006B32FB /* ViewController.swift in Sources */,
+				2B461BB01B4C1FBC008A7A93 /* FilterCell.swift in Sources */,
+				2B461BAE1B4C1154008A7A93 /* FilterViewController.swift in Sources */,
+				2BC0AF301B47208E006B32FB /* FeedViewController.swift in Sources */,
 				2BC0AF0E1B471EC1006B32FB /* AppDelegate.swift in Sources */,
+				2BC0AF321B472A98006B32FB /* FeedCell.swift in Sources */,
+				2B461BB21B4C4890008A7A93 /* FeedItem.swift in Sources */,
+				2B461BAA1B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +448,7 @@
 				2BC0AF291B471EC2006B32FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BC0AF2A1B471EC2006B32FB /* Build configuration list for PBXNativeTarget "ExchangeAGramTests" */ = {
 			isa = XCConfigurationList;
@@ -419,8 +457,22 @@
 				2BC0AF2C1B471EC2006B32FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B461BA81B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B461BA91B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodel */,
+			);
+			currentVersion = 2B461BA91B4BF11B008A7A93 /* ExchangeAGramModel.xcdatamodel */;
+			path = ExchangeAGramModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2BC0AF001B471EC1006B32FB /* Project object */;
 }
