@@ -12,6 +12,7 @@ class FilterCell: UICollectionViewCell {
     
     
     var imageView: UIImageView!
+    var dicksAndArse: NSData!
     
     
     
